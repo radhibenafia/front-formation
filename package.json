@@ -1,0 +1,78 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:5000",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@google/generative-ai": "^0.24.1",
+    "@mui/icons-material": "^6.4.6",
+    "@mui/material": "^6.4.6",
+    "@react-three/drei": "^10.0.6",
+    "@react-three/fiber": "^9.1.2",
+    "@tensorflow-models/mobilenet": "^2.1.1",
+    "@tensorflow-models/posenet": "^2.2.2",
+    "@tensorflow-models/qna": "^1.0.2",
+    "@tensorflow-models/speech-commands": "^0.5.4",
+    "@tensorflow-models/toxicity": "^1.2.2",
+    "@tensorflow/tfjs": "^4.22.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@zegocloud/zego-uikit-prebuilt": "^2.14.3-beta",
+    "axios": "^1.8.3",
+    "brain.js": "^2.0.0-beta.24",
+    "chart.js": "^4.4.9",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "emailjs-com": "^3.2.0",
+    "face-api.js": "^0.22.2",
+    "firebase": "^11.3.1",
+    "framer-motion": "^12.4.7",
+    "html2pdf.js": "^0.10.3",
+    "matter-js": "^0.20.0",
+    "openai": "^4.87.3",
+    "playcanvas": "^2.6.2",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^18.2.0",
+    "react-pdf": "^9.2.1",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "5.0.1",
+    "react-sketch-canvas": "^6.2.0",
+    "recharts": "^2.15.1",
+    "simple-peer": "^9.11.1",
+    "socket.io-client": "^4.7.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "typescript": "^5.8.3"
+  }
+}
