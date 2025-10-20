@@ -17,8 +17,8 @@ const Livestream: React.FC = () => {
     const myMeeting = async (element: HTMLDivElement | null) => {
         if (element) {
             // générer le Kit Token
-            const appID = 1857222047;
-            const serverSecret = "fcbba2f87a0a800937e4dcd7765bcc4d";
+            const appID = ;
+            const serverSecret = "";
             const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(appID, serverSecret, roomID, Date.now().toString(), storedNom);
 
             // Créer l'instance à partir du Kit Token
